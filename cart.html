@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js"
+        integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js"
+        integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13"
+        crossorigin="anonymous"></script>
+        <script src="proj.js"></script>
+        <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+        <link href="magiczoomplus/magiczoomplus.css" rel="stylesheet" type="text/css" media="screen" />
+    <script src="magiczoomplus/magiczoomplus.js" type="text/javascript"></script>
+
+    <style>
+        .preview,
+        .app-figure {
+            -webkit-box-sizing: border-box;
+            -moz-box-sizing: border-box;
+            box-sizing: border-box;
+        }
+
+        .preview {            
+            border: 0;
+            min-height: 1px;
+        }
+
+        .preview {
+            position: relative;
+        }
+
+        .preview {
+            
+            float: center;
+        }
+
+        .app-figure {
+            width: 100% !important;            
+            border: 0px solid red;            
+            position: relative;
+            text-align: center;
+        }
+
+        .selectors {
+            margin-top: 10px;
+        }
+
+        .selectors .mz-thumb img {
+            max-width: 56px;
+        }
+
+
+        
+
+        .sizehover:hover {
+            background-color: black;
+            color: white;
+        }
+
+        table {
+            border-collapse: collapse;
+            border-spacing: 0;
+        }
+
+        th {
+            background-color: gray;
+            color: white;
+        }
+
+        th,
+        td {
+            padding: 10px 20px;
+            border: 1px solid #000;
+        }
+    </style>
+
+   
+</head>
+
+<body>
+    <div class="container">
+        <div class="row">
+            
+                <div class="preview col-12 col-md-6">
+
+                    <div class="app-figure" id="zoom-fig">
+                        <a id="Zoom-1" class="MagicZoom"
+                            href="https://www.junaidjamshed.com/media/catalog/product/2/2/22-2525_1_.jpg?quality=80&bg-color=255,255,255&fit=bounds&height=560&width=436">
+                            <img src="https://www.junaidjamshed.com/media/catalog/product/2/2/22-2525_1_.jpg?quality=80&bg-color=255,255,255&fit=bounds&height=560&width=436"
+                                srcset="https://www.junaidjamshed.com/media/catalog/product/2/2/22-2525_1_.jpg?quality=80&bg-color=255,255,255&fit=bounds&height=560&width=436" alt="" />
+                        </a>
+                        <div class="selectors">
+                            <a data-zoom-id="Zoom-1"
+                                href="https://www.junaidjamshed.com/media/catalog/product/2/2/22-2525_1_.jpg?quality=80&bg-color=255,255,255&fit=bounds&height=560&width=436"
+                                data-image="https://www.junaidjamshed.com/media/catalog/product/2/2/22-2525_1_.jpg?quality=80&bg-color=255,255,255&fit=bounds&height=560&width=436">
+                                <img srcset="https://www.junaidjamshed.com/media/catalog/product/2/2/22-2525_1_.jpg?quality=80&bg-color=255,255,255&fit=bounds&height=560&width=436 2x"
+                                    src="https://www.junaidjamshed.com/media/catalog/product/2/2/22-2525_1_.jpg?quality=80&bg-color=255,255,255&fit=bounds&height=560&width=436" />
+                            </a>
+                            <a data-zoom-id="Zoom-1"
+                                href="https://www.junaidjamshed.com/media/catalog/product/2/2/22-2525_2_.jpg?quality=80&bg-color=255,255,255&fit=bounds&height=560&width=436"
+                                data-image="https://www.junaidjamshed.com/media/catalog/product/2/2/22-2525_2_.jpg?quality=80&bg-color=255,255,255&fit=bounds&height=560&width=436">
+                                <img srcset="https://www.junaidjamshed.com/media/catalog/product/2/2/22-2525_2_.jpg?quality=80&bg-color=255,255,255&fit=bounds&height=560&width=436 2x"
+                                    src="https://www.junaidjamshed.com/media/catalog/product/2/2/22-2525_2_.jpg?quality=80&bg-color=255,255,255&fit=bounds&height=560&width=436" />
+                            </a>
+                            <a data-zoom-id="Zoom-1"
+                                href="https://www.junaidjamshed.com/media/catalog/product/2/2/22-2525_3_.jpg?quality=80&bg-color=255,255,255&fit=bounds&height=560&width=436"
+                                data-image="https://www.junaidjamshed.com/media/catalog/product/2/2/22-2525_3_.jpg?quality=80&bg-color=255,255,255&fit=bounds&height=560&width=436">
+                                <img srcset="https://www.junaidjamshed.com/media/catalog/product/2/2/22-2525_3_.jpg?quality=80&bg-color=255,255,255&fit=bounds&height=560&width=436 2x"
+                                    src="https://www.junaidjamshed.com/media/catalog/product/2/2/22-2525_3_.jpg?quality=80&bg-color=255,255,255&fit=bounds&height=560&width=436" />
+                            </a>
+            
+                        </div>
+                    </div>
+            
+            
+                </div>
+            
+
+            <div class="col-12 col-md-6">
+                <h1 id="pname">JGLK-S-22-2525 FB/Blue-210</h1>
+                <h6>SKU#: J-GL162811</h6>
+                <h6><b>IN STOCK</b></h6>
+                <p><u>BE THE FIRST TO REVIEW THIS PRODUCT</u> </p>
+                <br><br>
+                <h1>PKR&nbsp;<span id="sprice">&nbsp;2090</span></h1>
+                <hr><br><br>
+                <h6>Size:&nbsp;&nbsp;<span id="ssize">2-3</span>&nbsp;Years</h6>
+                
+                <div class="d-flex p-2 justify-content-between">
+                    <h6><span id="size23" onclick="changedata(this)"
+                            class="sizehover p-1 border border-dark rounded-circle">2-3</span></h6>
+                    <h6><span id="size34" onclick="changedata(this)"
+                            class="sizehover p-1 border border-dark rounded-circle">3-4</span></h6>
+                    <h6><span id="size45" onclick="changedata(this)"
+                            class="sizehover p-1 border border-dark rounded-circle">4-5</span></h6>
+                    <h6><span id="size56" onclick="changedata(this)"
+                            class="sizehover p-1 border border-dark rounded-circle">5-6</span></h6>
+                    <h6><span id="size67" onclick="changedata(this)"
+                            class="sizehover p-1 border border-dark rounded-circle">6-7</span></h6>
+                    <h6><span id="size78" onclick="changedata(this)"
+                            class="sizehover p-1 border border-dark rounded-circle">7-8</span></h6>
+                    <h6><span id="size89" onclick="changedata(this)"
+                            class="sizehover p-1 border border-dark rounded-circle">8-9</span></h6>
+                    <h6><span id="size910" onclick="changedata(this)"
+                            class="sizehover p-1 border border-dark rounded-circle">9-10</span></h6>
+                </div>
+                <br>
+                <button type="button" id="cartBtn" onclick="cartbtn()" class="btn w-100 btn-secondary btn-lg">Add To
+                    Cart</button>
+
+                <br><br>
+                <div id="carttbl" class="text-center d-flex justify-content-center">
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+
+    <script>
+
+        var sprice = document.getElementById("sprice");
+        var ssize = document.getElementById("ssize");
+        var pname = document.getElementById("pname");
+
+        let table = document.createElement('table');
+        let thead = document.createElement('thead');
+        let tbody = document.createElement('tbody');
+
+        table.appendChild(thead);
+        table.appendChild(tbody);
+
+        // Adding the entire table to the body tag
+        document.getElementById('carttbl').appendChild(table);
+
+        
+
+        
+
+        
+    </script>
+
+<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/prettify/r298/prettify.min.css">
+<script type="text/javascript"
+    src="https://cdnjs.cloudflare.com/ajax/libs/prettify/188.0.0/prettify.min.js"></script>
+</body>
+
+</html>
